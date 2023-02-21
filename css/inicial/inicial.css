@@ -1,0 +1,91 @@
+.bg{
+  background-image: url('../../img/bg3.png');
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+main p {
+  font-size: 1.25rem;
+  margin-top: 20px;
+  margin-bottom: 48px;
+}
+
+.pergunta {
+  justify-content: center;
+  background-color: var(--c0);
+  border-radius: 12px;
+  margin-top: 32px;
+  padding: 36px 80px;
+}
+
+.time {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  background-color: var(--c2);
+  padding: 8px 20px;
+  border-radius: 8px;
+}
+.time img {
+  width: 28px;
+  height: 28px;
+}
+.time span {
+  color: var(--c4);
+  font-weight: 500;
+}
+.pergunta p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.questao {
+  font-weight: 500;
+}
+.alternativas {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  gap: 32px 160px;
+  margin-top: 20px;
+}
+.alternativas li {
+  background-color: var(--c1);
+  padding: 12px 48px;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: 500;
+  cursor: pointer;
+}
+.ativo .alternativas.correcao  li {
+  background-color: #F56F66;
+  color: white;
+  padding: 12px 48px;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.alternativas li:hover {
+  outline: 3px solid var(--d2);
+}
+.passaros{
+  display: flex;
+  gap: 10px;
+}
+.ativo .correto{
+  background-color: #B6EBAD;
+}
+.ativo .errado{
+  background-color: #F56F66;
+}
+.ativo .correto:hover,
+.ativo .errado:hover{
+  outline: none;
+}
+.resultado{
+  gap: 20px;
+}
+.resultado p{
+  font-size: 1.25rem;
+}

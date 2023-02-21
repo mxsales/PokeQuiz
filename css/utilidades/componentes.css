@@ -1,0 +1,83 @@
+p,
+body,
+html,
+h1 {
+  margin: 0px;
+}
+body {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+button {
+  border: none;
+  cursor: pointer;
+}
+ul,
+li {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+footer {
+  position: fixed;
+  bottom: 0px;
+  padding: 32px 0px;
+  font-size: 1rem;
+  font-weight: 500;
+  width: 100%;
+  text-align: center;
+  color: #f7f7f7;
+  background-color: #27272799;
+}
+
+.container {
+  max-width: 780px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: none;
+  justify-items: center;
+}
+
+.titulo {
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  margin-top: 40px;
+  color: var(--c8);
+  text-align: center;
+}
+
+.botao {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 24px 48px;
+  background-color: var(--d2);
+  color: var(--c0);
+  border-radius: 456px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+  font-family: "Lato", sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.botao:hover {
+  background-color: #de3f3f;
+}
+.ativo {
+  display: grid;
+  animation-name: mudaTela;
+  animation-duration: 0.8s;
+}
+
+@keyframes mudaTela {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

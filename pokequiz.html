@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="icon" href="./img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./css/style.css" type="text/css">
+  <title>PokeQuiz - Quiz sobre Pokemon</title>
+</head>
+
+<body class="bg">
+  <h1 class="titulo">Poke<span class="d2">Q</span>uiz</h1>
+  <main class="container ativo">
+    <p>Você é um verdadeiro mestre Pokémon? teste seus conhecimentos agora!</p>
+    <button class="botao">
+      <span>COMEÇAR</span>
+      <img src="./img/pokeball.png" alt="pokebola">
+    </button>
+  </main>
+  <section class="container pergunta">
+    <p><span class="questao">Questão 1 / 5:</span> Qual o nome correto do pokemon abaixo?</p>
+    <div>
+      <img src="./img/pokemon1.png" alt="pokemon">
+    </div>
+    <ul class="alternativas">
+      <li>Starlye</li>
+      <li>Starmie</li>
+      <li class="x">Staryu</li>
+      <li>Starya</li>
+  </section>
+  <section class="container pergunta">
+    <p><span class="questao">Questão 2 / 5:</span> Quantos Pokemons existem na primeira geração?</p>
+    <ul class="alternativas">
+      <li>152</li>
+      <li>160</li>
+      <li>161</li>
+      <li class="x">151</li>
+  </section>
+  <section class="container pergunta">
+    <p><span class="questao">Questão 3 / 5:</span> Quais os nomes dos 3 Passaros lendários respectivamente?</p>
+    <div class="passaros">
+      <div><img src="./img/145.png" alt="zapdos"></div>
+      <div><img src="./img/144.png" alt="articuno"></div>
+      <div><img src="./img/146.png" alt="moltres"></div>
+    </div>
+    <ul class="alternativas">
+      <li>Spearow<br>Glaceon<br>Absol</li>
+      <li class="x">Zapdos<br>Articuno<br>Moltres</li>
+      <li>Mewtwo<br>Rayquaza<br>Espeon</li>
+      <li>Raikou<br>Suicune<br>Entei</li>
+  </section>
+  <section class="container pergunta">
+    <p><span class="questao">Questão 4 / 5:</span> Este Pokemon Evolui para um... ?</p>
+    <div>
+      <img src="./img/91.png" alt="pokemon">
+    </div>
+    <ul class="alternativas">
+      <li>Shelter</li>
+      <li>Cloyster</li>
+      <li>Wailord</li>
+      <li class="x">Não evolui</li>
+  </section>
+  <section class="container pergunta">
+    <p><span class="questao">Questão 5 / 5:</span> O Pokemon a seguir é de quais tipos?</p>
+    <div>
+      <img src="./img/141.png" alt="pokemon">
+    </div>
+    <ul class="alternativas">
+      <li>Voador e<br>Pedra</li>
+      <li>Voador e<br>Elétrico</li>
+      <li>Pedra e<br>Terrestre</li>
+      <li class="x">Pedra e<br>Água</li>
+  </section>
+  <section class="container resultado">
+    <h1 class="titulo"></h1>
+    <p></p>
+    <button class="botao">REINICIAR QUIZ</button>
+  </section>
+  <footer>
+    <p>PokeQuiz - Apenas um quiz sobre Pokemon</p>
+  </footer>
+  <script type="module" src="./js/script.js"></script>
+</body>
+
+</html>
